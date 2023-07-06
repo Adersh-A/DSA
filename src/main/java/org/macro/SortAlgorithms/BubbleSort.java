@@ -13,7 +13,9 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {1,6,3,2,8,4};
         int[] sortedArr = doBubbleSort(arr);
-        Arrays.stream(sortedArr).forEach(System.out::print);
+
+        Arrays.stream(sortedArr)
+                .forEach(element -> System.out.printf("%d ", element));
     }
 
     private static int[] doBubbleSort(int[] arr) {
