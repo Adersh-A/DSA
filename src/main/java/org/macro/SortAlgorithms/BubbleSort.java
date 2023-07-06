@@ -6,6 +6,7 @@ import java.util.Arrays;
  complexity
  time - O(n^2)
  space - in place algorithm O(1)
+ its a stable sort algorithm
  */
 public class BubbleSort {
 
