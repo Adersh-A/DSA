@@ -2,6 +2,12 @@ package org.macro.SortAlgorithms;
 
 import java.util.Arrays;
 
+/*
+ complexity
+ time - O(n^2)
+ space - in place algorithm O(1)
+ its a unstable sort algorithm
+ */
 public class SelectionSort {
 
     public static void main(String[] args) {
@@ -10,6 +16,10 @@ public class SelectionSort {
         doSelectionSort(arr);
     }
 
+    /*
+        find the maximum element from the array and
+        swap the value to last of the array
+     */
     private static void doSelectionSort(int[] arr) {
         for(int i= arr.length-1; i>=0; i--){
             int max = 0;
