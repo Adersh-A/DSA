@@ -21,7 +21,7 @@ public class SelectionSort {
         swap the value to last of the array
      */
     private static void doSelectionSort(int[] arr) {
-        for(int i= arr.length-1; i>=0; i--){
+        for(int i= arr.length-1; i>0; i--){
             int max = 0;
             for(int j=1; j<= i; j++){
                 if(arr[j] > arr[max]){
