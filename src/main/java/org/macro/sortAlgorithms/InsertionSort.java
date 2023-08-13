@@ -1,4 +1,4 @@
-package org.macro.SortAlgorithms;
+package org.macro.sortAlgorithms;
 
 import java.util.Arrays;
 
